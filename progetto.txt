@@ -1,0 +1,5 @@
+DataDefenders
+Daniel Caparco
+
+
+Il programma esegue operazioni matematiche. Per far partire il programma bisogna togliere le parentesi graffe allo 0 di char scelte, e cambiare "%d" con "%c". Aggiungerei un default allo switch, in modo che se l'istruzione non fa parte dei casi dello switch parte l'istruzione di default. Nel void moltiplica è stato usato uno short, che limita la capacità di operazione quindi è meglio usuare un int, e bisogna cambiare "%f" con "%d"di scanf a. In void dividi bisogna cambiare "%" con "/", di int divisione, in modo che sia possibile fare la divisione, e aggiungerei un if con scritto b diverrso da 0, cosi non si possono effetuare divisioni per 0.
